@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'LangDotBot.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgres://randomwordsen_fr_api_user:2xslEl8pC5YLNQEt9wmjHMhYxJqBQg90@dpg-cl19v0k8s0fs739m4qg0-a.oregon-postgres.render.com/randomwordsen_fr_api',
         conn_max_age=600
     )
 }
