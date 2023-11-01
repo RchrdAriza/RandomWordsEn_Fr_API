@@ -20,3 +20,6 @@ class EnLangWordView(APIView):
             return Response({
                 'message': 'there was an error'
             })
+
+def home(request):
+    return render(request, 'home.html')
